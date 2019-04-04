@@ -1,0 +1,5 @@
+emacs
+slack
+vagrant
+vagrant-manager
+virtualbox
