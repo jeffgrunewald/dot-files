@@ -17,5 +17,7 @@ Vagrant.configure("2") do |config|
       vbox.customize ["modifyvm", :id, "--cpus", box_cpu_count]
       vbox.customize ["modifyvm", :id, "--name", host_name]
     end
+
+    sandbox.vm.provision "shell", path: "provision-vm.sh"
   end
 end
