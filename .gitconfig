@@ -1,5 +1,28 @@
 [user]
-	name = jeffgrunewald
-	email = jeff@grunewalddesign.com
+name = jeffgrunewald
+email = jeff@grunewalddesign.com
+
+[alias]
+log = log --graph
+
+[color]
+ui = true
+
+[diff]
+renames = true
+
+[fetch]
+prune = true
+
+[pull]
+rebase = true
+
 [push]
-	default = simple
+default = simple
+ff = false
+
+[rerere]
+enabled = true
+
+[core]
+excludesfile = ~/.gitignore
